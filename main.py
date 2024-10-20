@@ -8,7 +8,7 @@ from LearningRes import learning_resources, LearningRes
 app = FastAPI()
 
 
-@app.get("/")
+@app.get("/app-list")
 def read_root():
     return {"apps": create_app_list()}
 
