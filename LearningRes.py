@@ -90,7 +90,7 @@ learning_resources: List[LearningRes] = [
         name="CS50 by Harvard University",
         type="Online Course",
         shortDescription="A free introduction to computer science course, also available on YouTube.",
-        url="https://cs50.harvard.edu/x/2023/"
+        url="https://cs50.harvard.edu/x/2024/"
     ),
     LearningRes(
         id=12,
