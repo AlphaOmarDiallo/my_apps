@@ -22,4 +22,13 @@ def create_app_list() -> list[App]:
         name="Pwned App",
         playstore_link="https://play.google.com/store/apps/details?id=com.alphaomardiallo.pawnedemail"
     )
-    return [app1, app2]
+
+    app3 = App(
+        img_resource="https://play-lh.googleusercontent.com"
+                     "/AK1JvTkQZo9QNfMZzBdn8n7H_qTfzogIrtougHvppqnucuneIAF2J0OLcEn8ES29x34=w480-h960",
+        description="Track and share your 100 days of code challenge",
+        name="100DOC",
+        playstore_link="https://play.google.com/store/apps/details?id=com.alphaomardiallo.a100_days_of_code"
+
+    )
+    return [app1, app2, app3]
