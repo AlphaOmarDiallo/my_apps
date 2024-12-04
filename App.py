@@ -31,4 +31,13 @@ def create_app_list() -> list[App]:
         playstore_link="https://play.google.com/store/apps/details?id=com.alphaomardiallo.a100_days_of_code"
 
     )
-    return [app1, app2, app3]
+
+    app4 = App(
+        img_resource="https://play-lh.googleusercontent.com/f8zgttIoxfZb2kkqsZHrx4S92Ky17qOPG3uxPSAnYLcn"
+                     "-RoFUMTRJPxxeDomHCSTGck=w480-h960",
+        description="Find public wi-fi, toilets and fountains in Paris",
+        name="Paris Access",
+        playstore_link="https://play.google.com/store/apps/details?id=com.alphaomardiallo.freewifiparis.android"
+
+    )
+    return [app3, app4, app2, app1]
